@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Localhost Password Saver</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <form class="main-form">
+                        <h3>Enter your details to save your passwords to the database</h3>
+                        <input name="service" id="service" placeholder="Enter Service" type="text">
+                        <input name="email" id="email" placeholder="Enter Email" type="email">
+                        <input name="password" id="password" placeholder="Enter Password for Service" type="text">
+                        <textarea class="materialize-textarea" name="additional" id="additional" placeholder="Enter additional details" cols="30" rows="10"></textarea>
+                        <button class="btn waves-effect waves-light" id="submitPw" type="submit">Submit</button>
+                    </form>
+                </div>
+                    
+            </div>
+                
+                
+        <div class="row">
+            <div class="col s12">
+                <form>
+                    <h3>Forget a password? Enter the service and find out what it is instantly.</h3>
+                    <input name="findService" id="findService" placeholder="Service Name" type="text">
+                    <button class="btn waves-effect waves-light" id="findSubmit" type="submit">Find</button>
+                </form>
+            
+                <div class="info" style="display: none">
+                </div>
+                <!-- TODO: <div class="updatebtn" style="display: none">
+                    <button class="edit">Update</button><button class="delete">Delete</button>
+                </div> -->
+            </div>
+        </div>
+                
+        </div>
+            
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="js/functions.js" type="text/javascript"></script>
+    </body>
+</html>

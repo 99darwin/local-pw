@@ -1,0 +1,21 @@
+body {
+    background-color: #f7f7f7;
+}
+
+form {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    color: white;
+}
+
+.info {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    color: white;
+}
